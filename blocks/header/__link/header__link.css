@@ -1,0 +1,25 @@
+
+.header__link {
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 1.5rem;
+line-height: 1;
+text-align: right;
+text-decoration-line: none;
+color:white;
+margin-left: 18px;
+padding-bottom: 12px;
+
+
+}
+.header__link:hover {
+    text-decoration-line: underline;
+    opacity: .7;
+}
+
+@media screen and (max-width: 425px) {
+    .header__link {
+        font-size: 1rem;
+    }
+}

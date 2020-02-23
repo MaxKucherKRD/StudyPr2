@@ -1,0 +1,20 @@
+.video__container {
+    padding-top:70px ;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr) ;  
+    grid-template-rows: repeat(1,minmax(195px,325px));       
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    
+}
+
+
+@media screen and (max-width: 425px) {
+    .video__container {
+        padding-top: 35px;
+        grid-template-columns: repeat(1,300px) ; 
+        grid-template-rows: repeat(2,minmax(195px,325px)); 
+    }
+}
+

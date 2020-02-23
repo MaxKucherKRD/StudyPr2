@@ -1,0 +1,4 @@
+.additional__item_bg_cherepovec {
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../../../../images/cherepovec.jpg')  no-repeat;
+    background-size: cover;
+    }

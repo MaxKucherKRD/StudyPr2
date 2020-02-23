@@ -1,0 +1,19 @@
+.content-title {
+    font-family: Inter;
+font-style: normal;
+font-weight: 900;
+font-size: 4.5rem;
+line-height: 1;
+text-align: center;
+margin: 100px auto 50px;
+color: #FFFFFF;
+max-width: 800px;
+
+}
+
+@media screen and (max-width: 425px) {
+    .content-title {
+        font-size: 2rem;
+        margin: 50px auto 25px;
+    }
+}

@@ -1,0 +1,13 @@
+@import url('_bg/additional__item_bg_novoros.css');
+@import url('_bg/additional__item_bg_lenivec.css');
+@import url('_bg/additional__item_bg_cherepovec.css');
+@import url('_bg/additional__item_bg_shihan.css');
+
+.additional__item {
+    height: 330px ;
+    width: 285px;  
+    border-radius: 5px;
+    display:flex; 
+    flex-direction: column; 
+    justify-content: space-between;    
+}
