@@ -12,6 +12,8 @@
 @import url('../blocks/emblem/emblem.css');
 @import url('../blocks/barentsburg/barentsburg.css');
 @import url('../blocks/footer/footer.css');
+@import url('../vendor/Inter/inter.css');
+@import url("../vendor/normalize.css");
 
 
 .bg-color {
